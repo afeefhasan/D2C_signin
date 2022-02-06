@@ -1,0 +1,103 @@
+.login{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+
+}
+.page{
+   display: flex;
+    background-color: aquamarine;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    justify-content: center;
+    align-items: center;
+}
+.item1{
+    grid-column: 1/2;
+    height: 100vh;
+
+}
+.login__container{
+    display: flex;
+    z-index: 1;
+
+}
+.item2{
+    grid-column: 2/3;
+    height: 100vh;
+    width:100%;
+}
+input{
+    border-radius: 20px 20px 20px 20px;
+    border: 1px solid #ccc !important;
+    width: 100% !important;
+    padding: 10px;
+    margin: 10px;
+
+}
+input:focus{
+    border: 2px solid rgb(51, 18, 196) !important;
+}
+.photo{
+   width:100%;
+    height:100%
+}
+.google-icon{
+    height:30px
+}
+.forgot{
+    width: 50%;
+    margin-left: auto;
+}
+.input{
+    width: 50%;
+}
+.login_component{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.google_login{
+    border-radius: 20px 20px 20px 20px;
+    border: 1px solid #ccc !important;
+    width:50%;
+    padding: 10px;
+    background-color: white;
+    
+    font-weight: bold;
+   
+    cursor: pointer;
+}
+.login_button{
+    border-radius: 20px 20px 20px 20px;
+    border: 1px solid #ccc !important;
+    width:50%;
+    padding: 10px;
+    background-color: rgb(69, 38, 207);
+    color: white;
+    font-weight: bold;
+   
+    cursor: pointer;
+}
+p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: smaller;
+  }
+  p:before, h1:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+  }
+  p:before {
+    margin-right: 10px
+  }
+  p:after {
+    margin-left: 10px
+  }
