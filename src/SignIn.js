@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { auth, emailLogin, emailRegister, googleLogin } from "./Firebase";
 import { useAuthState } from "react-firebase-hooks/auth";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import image from './image.png';
+import image from './image.3fc60a5f8b56c35fe81e.webp';
 import google from './google.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import "./Login.css";
